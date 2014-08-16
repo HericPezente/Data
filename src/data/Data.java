@@ -16,6 +16,14 @@ public class Data {
     private int mes;
     private int ano;
     
+    /**
+     * Constroi uma Data
+     * @param 
+     * @param dia
+     * @param mes
+     * @param ano 
+     */
+    
     public Data(int dia, int mes, int ano){
         
         this.dia=dia;

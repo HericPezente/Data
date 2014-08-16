@@ -7,13 +7,20 @@
 package data;
 
 /**
- * 
- * @author i03
+ * Classe utilizada para representar uma data
+ * @author Heric Pezente
  */
 public class Hora {
     
     private int hora;
     private int minuto;
+    
+    /**
+     * Constroi uma data
+     * @param hora
+     * @param minuto 
+     */
+    
     
     public Hora(int hora, int minuto){
         
