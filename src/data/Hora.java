@@ -43,6 +43,24 @@ public class Hora {
     public int getMinuto() {
         return minuto;
     }
+
+    @Override
+    public String toString() {
+        return hora+":"+minuto;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Hora novaHora=(Hora) obj;
+        if(this.getHora() == novaHora.getHora() && this.getMinuto()== novaHora.getMinuto()){
+            return true;
+        }else
+            return false;
+    }
+    
+    
+    
+    
     
     
 }
